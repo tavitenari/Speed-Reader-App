@@ -1,0 +1,85 @@
+/*
+Ioane "Tavi" Tenari
+1/28/16
+CSE154
+speedreader.css
+*/
+
+body{
+	background-color: #EAF6F6;
+	font-family: Garamond;
+	font-size: 12pt;
+	text-align: center;
+}
+
+button{
+	background-color: white;
+	border: 1px solid gray;
+	width: 70px;
+}
+
+#controls{
+	margin: 0;
+	padding: 0;
+}
+
+#display{
+	background-color: #FFFFFF;
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	font-size: 36pt;
+	height: 100px;
+	line-height: 100px;
+	margin: auto;
+	width: 80%;
+	vertical-align: middle;
+}
+
+.big{
+	font-size: 48pt;
+}
+
+.bigger{
+	font-size: 60pt;
+}
+
+button:disabled{
+    background-color: lightgray;
+}
+
+img{
+	float: left;
+	width: 70px;
+}
+
+#inputtext, li{
+	display: inline-block;
+}
+
+fieldset{
+	border: 0;
+}
+
+legend{
+	border-bottom: 1px solid #8EBEBE;
+	font-weight: bold;
+	padding: 2px;
+	text-align: left;
+	width: 100%;
+}
+
+.medium{
+	font-size: 36pt;
+}
+
+li{
+	vertical-align: text-top;
+}
+
+.valid{
+	bottom: 0;
+	left: 0px;
+	margin: 5px;
+	padding: 0;
+	position: fixed;	
+}
